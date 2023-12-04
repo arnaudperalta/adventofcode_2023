@@ -1,6 +1,7 @@
 import { day1 } from "./day1/day1";
 import { day2 } from "./day2/day2";
 import { day3 } from "./day3/day3";
+import { day4 } from "./day4/day4";
 
 const dayNumber: number = parseInt(process.argv.at(-1) ?? "1")
 
@@ -11,4 +12,6 @@ switch (dayNumber) {
     day2()
   case 3:
     day3()
+  case 4:
+    day4()
 }
